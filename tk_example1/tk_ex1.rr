@@ -1,8 +1,13 @@
 module tk_example1;
 localf demo;
+localf demo2;
 
 def demo() {
   printf("This is a demo library file.\n");
+}
+
+def demo2() {
+  printf("Demo2!!\n");
 }
 
 endmodule;
